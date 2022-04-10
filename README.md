@@ -7,4 +7,4 @@ Este é um aplicativo de despesas pessoais.
 - [ ] Gráfico demonstrativo de despesas semanais.
 - [ ] Cadastro de despesas.
 
-** Assim que as imagens do App estiverem disponíveis serão colocadas aqui **
+**Assim que as imagens do App estiverem disponíveis serão colocadas aqui**
