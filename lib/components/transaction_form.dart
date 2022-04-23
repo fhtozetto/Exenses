@@ -24,15 +24,16 @@ class TransactionForm extends StatelessWidget {
               controller: valueController,
               decoration: const InputDecoration(labelText: 'R\$'),
             ),
-            // ignore: deprecated_member_use
-            FlatButton(
+            TextButton(
               onPressed: () {
                 final title = titleController.text;
                 final value = double.tryParse(valueController.text) ?? 0.0;
                 onSubmit!(title, value);
               },
-              textColor: Colors.purple,
-              child: const Text('Nova Transação'),
+              child: const Text(
+                'Nova Transação',
+                style: TextStyle(color: Colors.purple),
+              ),
             ),
           ],
         ),
