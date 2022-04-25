@@ -28,7 +28,8 @@ class TransactionForm extends StatelessWidget {
           children: [
             TextField(
               controller: titleController,
-              onSubmitted: (_) => _submitForm(),
+              onSubmitted: (_) =>
+                  _submitForm(), // (_) underline quer dizer que não será usado o parâmetro
               decoration: const InputDecoration(labelText: 'Título'),
             ),
             TextField(
