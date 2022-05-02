@@ -2,5 +2,8 @@
     "dart.previewFlutterUiGuides": true,
     "cSpell.words": [
         "grey"
+    ],
+    "cSpell.ignoreWords": [
+        "cupertino"
     ]
 }
